@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Riverr',
   tagline: 'Decentralized Trading Platform Documentation',
-  favicon: 'static/img/Logo.svg',
+  favicon: '/img/Logo.svg',
   future: {
     v4: true, 
   },
