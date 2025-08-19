@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="custom-footer">
       <div className="footer-container">
         <div className="footer-left">
-          <Link to={'/'} className="footer-logo">
+          <Link to={"/"} className="footer-logo">
             <img src="/img/logo.png" alt="Riverr" />
             <span>Riverr</span>
           </Link>
@@ -26,12 +26,8 @@ export default function Footer() {
             <li>
               <Link to="/docs">Docs</Link>
             </li>
-            <li>
-              {/* <Link to="/docs/faqs">FAQs</Link> */}
-            </li>
-            <li>
-              {/* <Link to="/terms">Terms/Privacy</Link> */}
-            </li>
+            <li>{/* <Link to="/docs/faqs">FAQs</Link> */}</li>
+            <li>{/* <Link to="/terms">Terms/Privacy</Link> */}</li>
           </ul>
         </div>
 
