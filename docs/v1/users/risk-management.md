@@ -1,4 +1,5 @@
 ---
+title: Risk Management,
 sidebar_position: 5
 ---
 
@@ -328,5 +329,3 @@ Risk management is not optional - it's the difference between long-term success 
 5. **Education Over Speculation**: Continuously learn and improve rather than gambling
 
 Remember: The goal isn't to never lose money - it's to lose small amounts when wrong and make larger amounts when right, while protecting your trading capital for long-term growth.
-
-Ready to start trading safely? Return to our [Trading Guide](./trading-guide.md) or review [Trading Terms](./trading-terms.md) for additional context.

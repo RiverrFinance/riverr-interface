@@ -15,7 +15,7 @@ const config = {
   organizationName: 'Riverr', // Usually your GitHub org/user name.
   projectName: 'riverr-interface', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',

@@ -1,6 +1,6 @@
 ---
 id: connecting-wallet
-title: Connecting Your Wallet
+title: Connecting Your Wallet,
 sidebar_label: Connecting Wallet
 sidebar_position: 2
 ---
@@ -196,14 +196,6 @@ If you lose access to your wallet:
 1. **Batch Transactions**: Combine multiple operations when possible
 2. **Monitor Network**: Trade during less congested times
 3. **Sufficient Balance**: Keep enough ICP for fees
-
-## Next Steps
-
-Now that your wallet is connected:
-
-- 📊 Learn about the [Trading Interface](/v1/users/understanding-interface)
-- 📈 Place your first trade with our [Trading Guide](/v1/users/trading-guide)
-- 💰 Master [Position Management](/v1/users/managing-positions)
 
 ## Need Additional Help?
 

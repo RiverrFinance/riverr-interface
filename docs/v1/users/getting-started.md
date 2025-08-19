@@ -1,4 +1,5 @@
 ---
+title: Connecting Your Wallet,
 sidebar_position: 1
 ---
 
@@ -112,23 +113,11 @@ Configure your risk management preferences:
 - Auto-liquidation thresholds
 - Stop-loss defaults
 
-## Next Steps
-
-Now that your account is set up:
-
-1. **Read Trading Terms**: Understand key concepts in our [Trading Terms Guide](./trading-terms.md)
-2. **Start Trading**: Learn how to place your first trade in our [Trading Guide](./trading-guide.md)
-3. **Risk Management**: Review our [Risk Management Guide](./risk-management.md)
-
-:::warning Important
-Start with small amounts until you're comfortable with the platform. Leverage trading involves significant risk.
-:::
 
 ## Need Help?
 
 If you encounter issues:
-- Check our [Troubleshooting Guide](./troubleshooting.md)
 - Join our community Discord
 - Contact support through the platform
 
-Ready to trade? Let's move on to the [Trading Guide](./trading-guide.md).
+Ready to trade? Let's move on to the Trading Guide

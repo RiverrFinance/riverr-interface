@@ -24,13 +24,13 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/docs/">Docs</Link>
+              <Link to="/docs">Docs</Link>
             </li>
             <li>
-              <Link to="/docs/faqs">FAQs</Link>
+              {/* <Link to="/docs/faqs">FAQs</Link> */}
             </li>
             <li>
-              <Link to="/terms">Terms/Privacy</Link>
+              {/* <Link to="/terms">Terms/Privacy</Link> */}
             </li>
           </ul>
         </div>

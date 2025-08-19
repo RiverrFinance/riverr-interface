@@ -1,4 +1,5 @@
 ---
+title: Trading terms,
 sidebar_position: 3
 ---
 
@@ -233,5 +234,3 @@ Understanding these terms is crucial for successful trading. Bookmark this page 
 | Funding | Payment between longs/shorts |
 | Slippage | Price difference on execution |
 | Stop-Loss | Automatic loss-limiting order |
-
-Need help understanding how to apply these concepts? Check out our [Trading Guide](./trading-guide.md) or [Risk Management](./risk-management.md) sections.

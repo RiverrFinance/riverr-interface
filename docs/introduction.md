@@ -71,12 +71,6 @@ graph LR
 4. **House Settlement**: The decentralized house settles your trade instantly
 5. **Profit/Loss**: Realized gains are settled directly to native Bitcoin without bridges
 
-## Getting Started
-
-Ready to start trading? Follow our step-by-step guide:
-
-👉 [Get Started with Riverr Finance](/v1/users/getting-started)
-
 ## Platform Statistics
 
 - **Total Volume**: $2M+ traded
@@ -86,8 +80,7 @@ Ready to start trading? Follow our step-by-step guide:
 
 ## Need Help?
 
-- 📖 **New to Web3 Trading?** Start with our [Getting Started Guide](/v1/users/getting-started)
-- 🔧 **Technical Issues?** Check our [Troubleshooting Guide](/v1/users/troubleshooting)
+- 📖 **New to Web3 Trading?** Start with our / Getting Started Guide /
 - 💬 **Community Support**: Join our Discord and Twitter communities
 
 ---

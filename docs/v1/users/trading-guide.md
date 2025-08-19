@@ -1,4 +1,5 @@
 ---
+title: Trading guide
 sidebar_position: 4
 ---
 
@@ -238,5 +239,3 @@ For a $1,000 position:
 :::warning Risk Warning
 Leverage trading involves substantial risk of loss. Only trade with funds you can afford to lose completely. Past performance does not guarantee future results.
 :::
-
-Ready to learn about trading terminology? Check out our [Trading Terms Guide](./trading-terms.md).
