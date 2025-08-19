@@ -63,7 +63,7 @@ const config = {
         title: 'RIVERR',
         logo: {
           alt: 'Riverr Logo',
-          src: 'img/Logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           // {
