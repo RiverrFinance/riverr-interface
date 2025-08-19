@@ -6,25 +6,207 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #4F46E5;
+  --ifm-color-primary-dark: #4338CA;
+  --ifm-color-primary-darker: #3730A3;
+  --ifm-color-primary-darkest: #312E81;
+  --ifm-color-primary-light: #6366F1;
+  --ifm-color-primary-lighter: #7C3AED;
+  --ifm-color-primary-lightest: #8B5CF6;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+   
+  /* Custom colors for dark theme */
+  --ifm-background-color: #F7F8FA;
+  --ifm-background-surface-color: #FFFFFF;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-navbar-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --ifm-card-background-color: #FFFFFF;
+  --ifm-sidebar-background-color: #F7F8FA;
+  --ifm-color-text: #22223B;
+   
+  /* Typography */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #6366F1;
+  --ifm-color-primary-dark: #4F46E5;
+  --ifm-color-primary-darker: #4338CA;
+  --ifm-color-primary-darkest: #3730A3;
+  --ifm-color-primary-light: #7C3AED;
+  --ifm-color-primary-lighter: #8B5CF6;
+  --ifm-color-primary-lightest: #A855F7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+   
+  --ifm-background-color: #0F1419;
+  --ifm-background-surface-color: #1A1F2B;
+  --ifm-navbar-background-color: #0F1419;
+  --ifm-card-background-color: #1A1F2B;
+  --ifm-sidebar-background-color: #0F1419;
+}
+
+/* Custom components */
+.header-launch-app-link {
+  background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+  color: white !important;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.header-launch-app-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+/* Trading interface images */
+.trading-interface-image {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  margin: 16px 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Feature cards */
+.feature-card {
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  margin-bottom: 7px;
+  transition: all 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* Warning and info boxes */
+.admonition {
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.sidebar {
+  background-color: var(--ifm-sidebar-background-color);
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* Table styling */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Landing page hero section (if needed) */
+.hero {
+  background: linear-gradient(135deg, #0F1419 0%, #1A1F2B 100%);
+  color: white;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Step-by-step guide styling */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+/* Mobile Navigation Customization */
+@media (max-width: 996px) {
+  /* Rearrange navbar items on mobile */
+  .navbar__inner {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  
+  /* Keep logo and brand on the left */
+  .navbar__brand {
+    order: 1;
+    margin-right: auto !important;
+  }
+  
+  /* Move hamburger menu to the right */
+  .navbar__toggle {
+    order: 3;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Hide desktop menu items on mobile */
+  .navbar__items {
+    display: none;
+  }
+  
+  /* Style the hamburger button */
+  .navbar__toggle {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .navbar__toggle:hover {
+    background-color: var(--ifm-color-emphasis-200);
+  }
+  
+  /* Ensure sidebar menu works properly */
+  .navbar-sidebar {
+    background-color: var(--ifm-navbar-background-color);
+  }
+  
+  .navbar-sidebar__backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Additional responsive improvements */
+@media (max-width: 768px) {
+  .trading-interface-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Ensure navbar brand text is readable on mobile */
+  .navbar__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  /* Adjust logo size on mobile if needed */
+  .navbar__logo {
+    height: 28px;
+    width: auto;
+  }
 }
