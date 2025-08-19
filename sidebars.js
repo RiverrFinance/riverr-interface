@@ -61,13 +61,13 @@ tutorialSidebar: [
         },
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'V2',
-    //   items: [
-    //     'v2/overview',
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'V2',
+      items: [
+        'v2/overview',
+      ],
+    },
   ],
 };
 

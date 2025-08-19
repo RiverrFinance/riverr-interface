@@ -2,6 +2,7 @@
 id: overview
 title: Developers Overview
 sidebar_label: Overview
+sidebar_position: 1
 ---
 
 # Riverr Finance Developer Documentation

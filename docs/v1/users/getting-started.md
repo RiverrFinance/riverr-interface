@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Getting Started with Riverr
 
 This guide will walk you through setting up your account and making your first trade on Riverr.

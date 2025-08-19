@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Complete Trading Guide
 
 Learn how to navigate Riverr's trading interface and place your first trades.

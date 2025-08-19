@@ -38,7 +38,7 @@ export default function RiverrLanding() {
                     >
                         <button 
                         className={styles.primaryButton}
-                        onClick={() => window.open('https://app.riverr.finance', '_blank')}
+                        onClick={() => window.open('https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/dashboard', '_blank')}
                         >
                         Launch App
                         </button>

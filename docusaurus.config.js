@@ -2,7 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Riverr Finance',
+  title: 'Riverr',
   tagline: 'Decentralized Trading Platform Documentation',
   favicon: 'img/Logo.svg',
   future: {
@@ -11,10 +11,8 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-  organizationName: 'RiverrFinance', // Usually your GitHub org/user name.
+  organizationName: 'Riverr', // Usually your GitHub org/user name.
   projectName: 'riverr-interface', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -62,18 +60,18 @@ const config = {
       // Replace with your project's social card
       // image: 'img/riverr-social-card.jpg',
       navbar: {
-        title: 'RIVERR FINANCE',
+        title: 'RIVERR',
         logo: {
           alt: 'Riverr Logo',
           src: 'img/Logo.svg',
         },
         items: [
-          {
-            href: 'https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/dashboard',
-            label: 'Launch App',
-            position: 'right',
-            className: 'header-launch-app-link',
-          },
+          // {
+          //   href: 'https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/dashboard',
+          //   label: 'Launch App',
+          //   position: 'right',
+          //   className: 'header-launch-app-link',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -131,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Riverr Finance. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Riverr. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Risk Management Guide
 
 Learn how to trade safely and protect your capital on Riverr.

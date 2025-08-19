@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Trading Terms Glossary
 
 Essential terminology for Web3 perpetual futures trading on Riverr.

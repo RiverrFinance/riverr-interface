@@ -2,6 +2,7 @@
 id: connecting-wallet
 title: Connecting Your Wallet
 sidebar_label: Connecting Wallet
+sidebar_position: 2
 ---
 
 # Connecting Your Wallet to Riverr Finance
