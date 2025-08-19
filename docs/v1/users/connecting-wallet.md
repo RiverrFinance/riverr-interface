@@ -1,8 +1,8 @@
 ---
 id: connecting-wallet
-title: Connecting Your Wallet
 sidebar_label: Connecting Wallet
 sidebar_position: 2
+title: Connecting Your Wallet
 ---
 
 # Connecting Your Wallet to Riverr Finance
@@ -14,16 +14,19 @@ To trade on Riverr Finance, you need to connect an Internet Computer Protocol (I
 Riverr Finance supports the following ICP wallets:
 
 ### 🔐 NFID Wallet (Recommended)
+
 - **Best for**: Secure, passwordless authentication
 - **Features**: Biometric login, multi-chain support, decentralized identity
 - **Access**: [NFID Wallet](https://nfid.one/)
 
-### 🔌 Plug Wallet 
+### 🔌 Plug Wallet
+
 - **Best for**: Beginners and most users
 - **Features**: User-friendly interface, built-in ICP support, browser extension
 - **Download**: [Chrome Web Store](https://chrome.google.com/webstore/detail/plug/cfbfdhimifdmdehjmkdobpcjfefblkjm)
 
-### 🆔 Internet Identity  
+### 🆔 Internet Identity
+
 - **Best for**: Privacy-focused users
 - **Features**: Native ICP authentication, no passwords
 - **Access**: Built into ICP ecosystem
@@ -37,6 +40,7 @@ Riverr Finance supports the following ICP wallets:
 3. Choose your authentication method:
    - WebAuthn (biometric login)
    - Email magic link
+
 4. Complete the verification process
 5. Your decentralized identity is now ready!
 
@@ -61,6 +65,7 @@ NFID works with your existing wallet (Plug, Stoic, etc.):
 4. Choose your preferred authentication method:
    - Biometric verification OR
    - Email magic link
+
 5. NFID will request wallet connection permissions
 6. Select your preferred wallet (Plug/Stoic) when prompted
 7. Click **"Approve"** on the wallet connection request
@@ -70,12 +75,12 @@ NFID works with your existing wallet (Plug, Stoic, etc.):
 After first connection, NFID allows 1-click logins using your chosen authentication method.
 :::
 
-### For Plug Wallet Users  
+### For Plug Wallet Users
 
-1. Access Riverr Finance  
-2. Click **"Connect Wallet"**  
-3. Select **"Plug"**  
-4. Approve the connection in Plug's popup  
+1. Access Riverr Finance
+2. Click **"Connect Wallet"**
+3. Select **"Plug"**
+4. Approve the connection in Plug's popup
 
 ### For Internet Identity Users
 
@@ -91,7 +96,7 @@ After first connection, NFID allows 1-click logins using your chosen authenticat
 Once connected, you should see:
 
 - ✅ Your wallet address displayed in the top right corner
-- ✅ Your ICP balance visible  
+- ✅ Your ICP balance visible
 - ✅ The **"Connect Wallet"** button replaced with wallet info
 - ✅ Access to trading functions enabled
 
@@ -100,8 +105,10 @@ Once connected, you should see:
 ### Common Issues and Solutions
 
 #### Connection Failed
+
 **Problem**: Wallet won't connect to Riverr Finance
 **Solutions**:
+
 1. Refresh the browser page and try again
 2. Clear browser cache and cookies
 3. Disable other wallet extensions temporarily
@@ -109,16 +116,20 @@ Once connected, you should see:
 5. Try incognito/private browsing mode
 
 #### Wallet Not Detected
+
 **Problem**: Riverr doesn't recognize your wallet
 **Solutions**:
+
 1. Ensure the wallet extension is installed and enabled
 2. Refresh the page after installing the wallet
 3. Check if the wallet is properly unlocked
 4. Try disconnecting and reconnecting
 
 #### Transaction Failures
+
 **Problem**: Transactions fail to execute
 **Solutions**:
+
 1. Check your ICP balance for sufficient funds
 2. Ensure you have enough ICP for transaction fees
 3. Try lowering transaction amount
@@ -127,14 +138,18 @@ Once connected, you should see:
 ### Network Issues
 
 #### Slow Connection
+
 If connection seems slow:
+
 1. Check your internet connection
 2. Try switching to a different network
 3. Close unnecessary browser tabs
 4. Refresh the Riverr Finance page
 
 #### Disconnection Problems
+
 If your wallet keeps disconnecting:
+
 1. Check wallet settings for auto-lock features
 2. Ensure browser isn't blocking the connection
 3. Update your wallet to the latest version
@@ -173,12 +188,15 @@ If you have multiple ICP wallets:
 ### Backup and Recovery
 
 #### Creating Backups
+
 1. **Seed Phrase**: Write it down and store securely offline
 2. **Wallet Files**: Export wallet files if your wallet supports it
 3. **Private Keys**: Store encrypted copies in secure locations
 
 #### Recovery Process
+
 If you lose access to your wallet:
+
 1. Download/reinstall your wallet software
 2. Choose **"Import/Restore Wallet"**
 3. Enter your seed phrase carefully
@@ -188,11 +206,13 @@ If you lose access to your wallet:
 ## Wallet Fees and Costs
 
 ### Transaction Fees
+
 - **Network Fees**: Small ICP fees for blockchain transactions
 - **Gas Costs**: Minimal costs for smart contract interactions
 - **Trading Fees**: Platform fees (if applicable)
 
 ### Fee Optimization Tips
+
 1. **Batch Transactions**: Combine multiple operations when possible
 2. **Monitor Network**: Trade during less congested times
 3. **Sufficient Balance**: Keep enough ICP for fees
@@ -201,19 +221,21 @@ If you lose access to your wallet:
 
 Now that your wallet is connected:
 
-- 📊 Learn about the [Trading Interface](/v1/users/understanding-interface)
-- 📈 Place your first trade with our [Trading Guide](/v1/users/trading-guide)
-- 💰 Master [Position Management](/v1/users/managing-positions)
+- 📊 Learn about the [Trading Interface](./understanding-interface.md)
+- 📈 Place your first trade with our [Trading Guide](./trading-guide.md)
+- 💰 Master [Position Management](./managing-positions.md)
 
 ## Need Additional Help?
 
 ### Support Resources
+
 - **Documentation**: Browse our comprehensive guides
-- **Community**: Join our Discord for peer support  
+- **Community**: Join our Discord for peer support
 - **FAQ**: Check common questions and answers
 - **Contact**: Reach out to our support team
 
 ### Wallet-Specific Support
+
 - **NFID Wallet**: [NFID Support](https://nfid.one/)
 - **Plug Wallet**: [Plug Support](https://plugwallet.ooo/)
 - **Internet Identity**: [ICP Documentation](https://internetcomputer.org/)

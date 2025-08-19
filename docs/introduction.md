@@ -1,8 +1,8 @@
 ---
 id: introduction
-title: Welcome to Riverr Finance
 sidebar_label: Introduction
 slug: /
+title: Welcome to Riverr Finance
 ---
 
 # Welcome to Riverr Finance
@@ -20,13 +20,15 @@ Riverr Finance revolutionizes decentralized trading by introducing a unique Orde
 <div className="feature-card">
 
 #### 📊 Order Book Model
+
 Riverr’s decentralized order book matches buyers and sellers directly, enabling real price discovery and precise trading with limit orders. Experience deep liquidity and transparent execution—no central counterparty required.
 
 </div>
 
 <div className="feature-card">
 
-#### ⚡ Zero to Minimal Slippage  
+#### ⚡ Zero to Minimal Slippage
+
 Execute trades with minimal or zero slippage through our innovative oracle-powered price feeds that ensure fair pricing and zero to minimal slippage.
 
 </div>
@@ -34,6 +36,7 @@ Execute trades with minimal or zero slippage through our innovative oracle-power
 <div className="feature-card">
 
 #### 🔒 Fully Decentralized & Trustless
+
 All trades, vaults, and settlements operate fully on the Internet Computer Protocol, removing middlemen and eliminating counterparty risk for complete trustlessness.
 
 </div>
@@ -41,6 +44,7 @@ All trades, vaults, and settlements operate fully on the Internet Computer Proto
 <div className="feature-card">
 
 #### 🚀 Fully On-Chain & Non-Custodial
+
 All trades, vaults, and settlements run on the Internet Computer Protocol. Your funds remain in your control at all times.
 
 </div>
@@ -48,6 +52,7 @@ All trades, vaults, and settlements run on the Internet Computer Protocol. Your 
 <div className="feature-card">
 
 #### 📊 Oracle-Powered Price Feeds
+
 Accurate, tamper-resistant prices from secure oracles ensure fair execution and transparent trading.
 
 </div>
@@ -75,7 +80,7 @@ graph LR
 
 Ready to start trading? Follow our step-by-step guide:
 
-👉 [Get Started with Riverr Finance](/v1/users/getting-started)
+👉 [Get Started with Riverr Finance](./v1/users/getting-started.md)
 
 ## Platform Statistics
 
@@ -86,8 +91,8 @@ Ready to start trading? Follow our step-by-step guide:
 
 ## Need Help?
 
-- 📖 **New to Web3 Trading?** Start with our [Getting Started Guide](/v1/users/getting-started)
-- 🔧 **Technical Issues?** Check our [Troubleshooting Guide](/v1/users/troubleshooting)
+- 📖 **New to Web3 Trading?** Start with our [Getting Started Guide](./v1/users/getting-started.md)
+- 🔧 **Technical Issues?** Check our [Troubleshooting Guide](./v1/users/troubleshooting.md)
 - 💬 **Community Support**: Join our Discord and Twitter communities
 
 ---
