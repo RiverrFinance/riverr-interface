@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Riverr',
   tagline: 'Decentralized Trading Platform Documentation',
-  favicon: 'img/Logo.svg',
+  favicon: 'img/Logo.png',
   future: {
     v4: true, 
   },
@@ -16,7 +16,7 @@ const config = {
   projectName: 'riverr-interface', // Usually your repo name.
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
