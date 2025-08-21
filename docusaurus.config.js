@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Riverr',
   tagline: 'Decentralized Trading Platform Documentation',
-  favicon: 'static/img/Logo.svg',
+  favicon: 'img/Logo.svg',
   future: {
     v4: true, 
   },
@@ -29,7 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',          
-          editUrl:'https://github.com/RiverrFinance/riverr-interface/tree/main/',
+          editUrl:'hhttps://github.com/RiverrFinance/clearing_house',
         }, 
         blog: false,
         // {
@@ -80,7 +80,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/RiverrFinance/riverr-interface',
+            href: 'https://github.com/RiverrFinance/clearing_house',
             label: 'GitHub',
             position: 'right',
           },
@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/RiverrFinance/riverr-interface',
+                href: 'https://github.com/RiverrFinance/clearing_house',
               },
             ],
           },
