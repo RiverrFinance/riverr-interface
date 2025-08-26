@@ -40,11 +40,11 @@ export default function Footer() {
                 Dfinity
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://dfinity.org" target="_blank" rel="noopener">
                 Dfinity
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -52,12 +52,12 @@ export default function Footer() {
           <a href="https://x.com/riverrFinance" target="_blank" rel="noopener">
             <img src="/img/Twitter.svg" />
           </a>
-          <a href="#" target="_blank" rel="noopener">
+          {/* <a href="#" target="_blank" rel="noopener">
             <img src="/img/Instagram.svg" />
           </a>
           <a href="#" target="_blank" rel="noopener">
             <img src="/img/Youtube.svg" />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>
