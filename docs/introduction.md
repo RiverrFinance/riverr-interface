@@ -15,15 +15,21 @@ Riverr Finance  is a decentralized derivatives and perpetual trading platform bu
 
 ### Key Features
 
+<div className="feature-card">
+
 #### 📊 Order Book Model
 
 Riverr’s decentralized order book matches buyers and sellers directly, enabling real price discovery and precise trading with limit orders. Experience deep liquidity and transparent execution—no central counterparty required.
+
+</div>
 
 <div className="feature-card">
 
 #### ⚡ Fast Trade Execution
 
 Riverr is built on ICP , a highly secure and performant blockchain ensuring fast trade execution comparable to CEX
+
+</div>
 
 <div className="feature-card">
 
@@ -32,6 +38,8 @@ Riverr is built on ICP , a highly secure and performant blockchain ensuring fast
 All trades, vaults, and settlements operate fully on the Internet Computer Protocol, removing middlemen and eliminating counterparty risk for complete trustlessness.
 
 </div>
+
+<div className="feature-card">
 
 #### 📊 Oracle-Powered Price Feeds
 
