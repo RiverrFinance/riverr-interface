@@ -119,7 +119,6 @@ Configure your risk management preferences:
 ## Need Help?
 
 # If you encounter issues:
-<<<<<<< HEAD
 
 - Check our [Troubleshooting Guide](./troubleshooting.md)
 

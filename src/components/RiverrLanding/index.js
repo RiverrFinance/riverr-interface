@@ -76,10 +76,10 @@ export default function RiverrLanding() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <img
+            {/* <img
               src="/img/heropic.png"
               alt="trading interface mockup picture"
-            />
+            /> */}
           </motion.div>
         </div>
       </section>
