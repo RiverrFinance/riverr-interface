@@ -38,6 +38,7 @@ Riverr Finance supports the following ICP wallets:
 1. Visit [NFID's website](https://nfid.one/)
 2. Click **"Sign Up"**
 3. Choose your authentication method:
+
    - WebAuthn (biometric login)
    - Email magic link
 
@@ -63,6 +64,7 @@ NFID works with your existing wallet (Plug, Stoic, etc.):
 2. Click **"Connect Wallet"** in the top right
 3. Select **"NFID"** from the options
 4. Choose your preferred authentication method:
+
    - Biometric verification OR
    - Email magic link
 
@@ -203,20 +205,6 @@ If you lose access to your wallet:
 4. Set a new password
 5. Your wallet and funds will be restored
 
-## Wallet Fees and Costs
-
-### Transaction Fees
-
-- **Network Fees**: Small ICP fees for blockchain transactions
-- **Gas Costs**: Minimal costs for smart contract interactions
-- **Trading Fees**: Platform fees (if applicable)
-
-### Fee Optimization Tips
-
-1. **Batch Transactions**: Combine multiple operations when possible
-2. **Monitor Network**: Trade during less congested times
-3. **Sufficient Balance**: Keep enough ICP for fees
-
 ## Next Steps
 
 Now that your wallet is connected:
@@ -226,8 +214,6 @@ Now that your wallet is connected:
 - 💰 Master [Position Management](./managing-positions.md)
 
 ## Need Additional Help?
-
-### Support Resources
 
 - **Documentation**: Browse our comprehensive guides
 - **Community**: Join our Discord for peer support

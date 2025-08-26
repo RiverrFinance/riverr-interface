@@ -1,6 +1,6 @@
 ---
-title: Connecting Your Wallet,
 sidebar_position: 1
+title: Connecting Your Wallet,
 ---
 
 # Getting Started with Riverr
@@ -14,7 +14,7 @@ This guide will walk you through setting up your account and making your first t
 Riverr supports the following Web3 wallets:
 
 - **Internet Identity** (Recommended for ICP ecosystem)
-- **Plug Wallet** 
+- **Plug Wallet**
 - **Stoic Wallet**
 - **Other ICP-compatible wallets**
 
@@ -40,16 +40,14 @@ If you don't have a wallet yet, we recommend starting with Internet Identity for
 Before trading, you need to deposit collateral:
 
 1. Go to your **Dashboard**
-2. Click **"Deposit"** 
-3. Select the asset you want to deposit (ICP, ckBTC, etc.)
+2. Select the asset you want to deposit (ICP, ckBTC, etc.)
+3. Click **"Deposit"**
 4. Enter the amount to deposit
 5. Confirm the transaction in your wallet
 
 ### Minimum Deposit Requirements
 
-- **ICP**: 1 ICP minimum
-- **ckBTC**: 0.001 ckBTC minimum
-- **Other assets**: Check individual asset requirements
+- Based on specifications ,some assets have minimum  deposit amount
 
 ## Step 3: Navigate the Dashboard
 
@@ -65,17 +63,20 @@ Your dashboard displays:
 ### Key Dashboard Sections
 
 #### Account Summary
+
 - Available balance for trading
 - Total portfolio value
 - Unrealized PnL from open positions
 
 #### Active Positions
+
 - Position size and direction (Long/Short)
 - Current PnL
 - Liquidation price
 - Position controls (close, modify)
 
 #### Recent Activity
+
 - Trade history
 - Deposits and withdrawals
 - Fee summaries
@@ -92,6 +93,7 @@ Your dashboard displays:
 ### Quick Actions
 
 From the dashboard, you can quickly:
+
 - Open new positions
 - Close existing positions
 - Deposit/withdraw funds
@@ -109,14 +111,18 @@ From the dashboard, you can quickly:
 ### Risk Settings
 
 Configure your risk management preferences:
+
 - Maximum position size limits
 - Auto-liquidation thresholds
 - Stop-loss defaults
 
-
 ## Need Help?
 
-If you encounter issues:
+# If you encounter issues:
+<<<<<<< HEAD
+
+- Check our [Troubleshooting Guide](./troubleshooting.md)
+
 - Join our community Discord
 - Contact support through the platform
 
