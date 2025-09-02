@@ -4,16 +4,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Riverr',
   tagline: 'Decentralized Trading Platform Documentation',
-  favicon: 'img/Logo.svg',
+  favicon: 'img/favicon.svg',
   future: {
     v4: true, 
   },
 
-  // Set the production url of your site here
+
   url: 'https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/',
   baseUrl: '/',
-  organizationName: 'Riverr', // Usually your GitHub org/user name.
-  projectName: 'riverr-interface', // Usually your repo name.
+  organizationName: 'Riverr',
+  projectName: 'riverr-interface',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
@@ -29,24 +29,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',          
-          editUrl:'hhttps://github.com/RiverrFinance/clearing_house',
+          editUrl:'https://github.com/RiverrFinance/clearing_house',
         }, 
         blog: false,
-        // {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ['rss', 'atom'],
-        //     xslt: true,
-        //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -57,8 +42,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       // image: 'img/riverr-social-card.jpg',
+      metadata: [
+        {name: 'msapplication-TileColor', content: '#000000'},
+        {name: 'theme-color', content: '#000000'},
+      ],
       navbar: {
         title: 'RIVERR',
         logo: {
@@ -66,24 +54,18 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   href: 'https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/dashboard',
-          //   label: 'Launch App',
-          //   position: 'right',
-          //   className: 'header-launch-app-link',
-          // },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
             label: 'Docs',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/RiverrFinance/clearing_house',
             label: 'GitHub',
             position: 'right',
           },
+
         ],          
       },
       footer: {
@@ -94,21 +76,17 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/v1/users/getting-started',
+                to: '/docs/',
               },
               {
                 label: 'Trading Guide',
-                to: '/v1/users/trading-guide'
+                to: '/docs/v1/users/trading-guide'
               }
             ],
           },
           {
             title: 'Community',
             items: [
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discord.gg/riverr',
-              // },
               {
                 label: 'Twitter',
                 href: 'https://x.com/riverrFinance',
@@ -144,7 +122,6 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  // themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;

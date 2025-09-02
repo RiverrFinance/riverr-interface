@@ -1,49 +1,6 @@
-/* ===== NAVBAR STYLING ===== */
-.navbar {
-  background: transparent !important;
-  position: fixed !important;
-  top: 0 !important;
-  z-index: 1000 !important;
-  transition: all 0.3s ease !important;
-  width: 100% !important;
-  height: 80px !important;
-  padding: 0 4rem;
-}
+@import './navbar.css';
+@import './footer.css';
 
-.navbar__inner {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  width: 100% !important;
-  max-width: none !important;
-}
-
-/* Style navbar brand/logo - Left section */
-.navbar__brand {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.5rem !important;
-  margin-right: auto;
-}
-
-.navbar__logo {
-  display: flex !important;
-  align-items: center !important;
-}
-
-.navbar__title {
-  font-size: 1.25rem !important;
-  font-weight: bold !important;
-  color: white !important;
-}
-
-.navbar__items {
-  display: flex !important;
-  gap: 1rem !important;
-  padding: 0.5rem 1rem !important;
-}
-
-/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #4F46E5;
   --ifm-color-primary-dark: #4338CA;
@@ -55,7 +12,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
    
-  /* Custom colors for dark theme */
+  /* Custom colors for light theme */
   --ifm-background-color: #F7F8FA;
   --ifm-background-surface-color: #FFFFFF;
   --ifm-navbar-background-color: #FFFFFF;
@@ -70,84 +27,6 @@
   --ifm-line-height-base: 1.6;
 }
 
-.navbar__link {
-  color: #d1d5db !important;
-  font-weight: 500 !important;
-  transition: color 0.3s ease !important;
-  text-decoration: none !important;
-}
-
-.navbar__link:hover {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.navbar__link:after {
-  display: none !important;
-}
-
-.navbar-launch-app {
-  background-color: #0300AD !important;
-  color: white !important;
-  margin-left: 20rem;
-  padding: 0.5rem 1.5rem !important;
-  border-radius: 8px !important;
-  border: none !important;
-  font-weight: 500 !important;
-  text-decoration: none !important;
-  transition: background-color 0.3s ease !important;
-  white-space: nowrap !important;
-}
-
-.navbar-launch-app:hover {
-  background-color: #1d4ed8 !important;
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.navbar__toggle {
-  color: white !important;
-}
-
-.navbar-sidebar {
-  background: #141518;
-  backdrop-filter: blur(8px) !important;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 996px) {
-  .navbar__items--left {
-    display: none !important;
-  }
-
-  .navbar__items {
-    display: flex;
-    gap: 5rem;
-    justify-content: space-between !important;
-  }
-
-  .navbar__brand {
-    display: flex;
-    justify-content: flex-end !important;
-  }
-
-  .navbar-launch-app {
-    padding: 1rem !important;
-    font-size: 0.875rem !important;
-    margin-left: 0 !important;
-    width: fit-content;
-  }
-
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 1rem !important;
-    background: #ffffff22 !important;
-  }
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #6366F1;
   --ifm-color-primary-dark: #4F46E5;
@@ -160,38 +39,58 @@
    
   --ifm-background-color: #0F1419;
   --ifm-background-surface-color: #1A1F2B;
-  --ifm-navbar-background-color: #0F1419;
+  --ifm-navbar-background-color: #1A1F2B;
   --ifm-card-background-color: #1A1F2B;
   --ifm-sidebar-background-color: #0F1419;
 }
 
-/* Custom components */
+/* Launch app button styling */
 .header-launch-app-link {
-  background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+  background: linear-gradient(135deg, #0300AD 0%, #6366F1 100%) !important;
   color: white !important;
-  border-radius: 8px;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.2s ease;
+  border-radius: 8px !important;
+  padding: 0.75rem 1.5rem !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+  white-space: nowrap !important;
+  position: r+ative !important;
+  overflow: hidden !important;
+}
+
+.header-launch-app-link::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: -100% !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent) !important;
+  transition: left 0.5s ease !important;
+}
+
+.header-launch-app-link:hover::before {
+  left: 100% !important;
 }
 
 .header-launch-app-link:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(3, 0, 173, 0.4) !important;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 /* Trading interface images */
 .trading-interface-image {
   border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   margin: 16px 0;
   border: 1px solid var(--ifm-color-emphasis-200);
 }
 
 /* Feature cards */
 .feature-card {
-  background: var(--ifm-card-background-color);
   border-radius: 12px;
   padding: 24px;
   border: 1px solid var(--ifm-color-emphasis-200);
@@ -210,24 +109,17 @@
   border-left: 4px solid var(--ifm-color-primary);
 }
 
-.sidebar {
-  background-color: var(--ifm-sidebar-background-color);
-  border-right: 1px solid var(--ifm-color-emphasis-200);
-}
-
 /* Code blocks */
 .prism-code {
   border-radius: 8px;
 }
 
-/* Table styling */
 table {
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid var(--ifm-color-emphasis-200);
 }
 
-/* Landing page hero section (if needed) */
 .hero {
   background: linear-gradient(135deg, #0F1419 0%, #1A1F2B 100%);
   color: white;
@@ -242,7 +134,6 @@ table {
   background-clip: text;
 }
 
-/* Step-by-step guide styling */
 .step-number {
   display: inline-flex;
   align-items: center;
@@ -257,72 +148,65 @@ table {
   margin-right: 12px;
 }
 
-/* Mobile Navigation Customization */
-@media (max-width: 996px) {
-  /* Rearrange navbar items on mobile */
-  .navbar__inner {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-  }
-  
-  /* Keep logo and brand on the left */
-  .navbar__brand {
-    order: 1;
-    margin-right: auto !important;
-  }
-  
-  /* Move hamburger menu to the right */
-  .navbar__toggle {
-    order: 3;
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-  
-  /* Hide desktop menu items on mobile */
-  .navbar__items {
-    display: none;
-  }
-  
-  /* Style the hamburger button */
-  .navbar__toggle {
-    background: transparent;
-    border: none;
-    padding: 8px;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .navbar__toggle:hover {
-    background-color: var(--ifm-color-emphasis-200);
-  }
-  
-  /* Ensure sidebar menu works properly */
-  .navbar-sidebar {
-    background-color: var(--ifm-navbar-background-color);
-  }
-  
-  .navbar-sidebar__backdrop {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
+/* Hide default Docusaurus navbar since we're using custom swizzled component */
+.navbar--fixed-top {
+  display: none !important;
 }
 
-/* Additional responsive improvements */
-@media (max-width: 768px) {
-  .trading-interface-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Ensure navbar brand text is readable on mobile */
-  .navbar__title {
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  
-  /* Adjust logo size on mobile if needed */
-  .navbar__logo {
-    height: 28px;
-    width: auto;
-  }
+[data-theme='dark'] .custom-navbar {
+  background: #11141ce0 !important;
+}
+
+[data-theme='light'] .custom-navbar {
+  background: #11141ce0 !important;
+}
+
+.main-wrapper {
+  padding-top: 0 !important;
+}
+
+.theme-doc-main {
+  padding-top: 1rem !important;
+}
+
+/* Hide default Docusaurus footer since we're using custom swizzled component */
+.footer--dark {
+  display: none !important;
+}
+
+.footer, .custom-footer {
+  background: #11141ce0;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);  color: #ccc !important;  background: #11141ce0;
+  border-top: 1px solid #ffffff1a !important;
+  display: block !important;
+  padding: 4rem;
+  font-size: 14px;
+  position: relative;
+  z-index: 2 !important;
+}
+
+.ellipse {
+  position: absolute;
+  bottom: 70px;  
+  left: 8%;
+  transform: translateX(-50%);
+  width: 300px;   
+  height: 450px;
+  pointer-events: none; 
+  z-index: 0 !important;
+}
+
+.theme-doc-main {
+  background-color: var(--ifm-background-color) !important;
+}
+
+.docusaurus-wrapper {
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.main-wrapper {
+  flex: 1 !important;
 }

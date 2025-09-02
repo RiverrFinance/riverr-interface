@@ -1,6 +1,7 @@
 ---
 id: introduction
 sidebar_label: Introduction
+sidebar_position: 0
 slug: /
 title: Welcome to Riverr Finance
 ---
@@ -11,7 +12,7 @@ title: Welcome to Riverr Finance
 
 ## What is Riverr Finance?
 
-Riverr Finance  is a decentralized derivatives and perpetual trading platform built on the Internet Computer Protocol that utilises an In-house  Order Book Model built entirely on-chain enabling smooth and liquid trading conditions. Our platform provides seamless user experience while providing a secure, trustless trading environment.
+Riverr Finance is a decentralized derivatives and perpetual trading platform built on the Internet Computer Protocol that utilises an In-house Order Book Model built entirely on-chain enabling smooth and liquid trading conditions. Our platform provides seamless user experience while providing a secure, trustless trading environment.
 
 ### Key Features
 
@@ -43,7 +44,7 @@ All trades, vaults, and settlements operate fully on the Internet Computer Proto
 
 #### 📊 Oracle-Powered Price Feeds
 
-Accurate, real time Spot market prices from secure oracles ensure fair execution for settlement for funding rates 
+Accurate, real time Spot market prices from secure oracles ensure fair execution for settlement for funding rates
 
 </div>
 
@@ -52,17 +53,17 @@ Accurate, real time Spot market prices from secure oracles ensure fair execution
 ```mermaid
 graph LR
     A[Pick Market] --> B[Open Position]
-    B --> C[Oracle Pricing] 
+    B --> C[Oracle Pricing]
     C --> D[House Settlement]
     D --> E[Profit/Loss]
-    
+
     style A fill:#6366F1
     style E fill:#10B981
 ```
 
 1. **Pick Market**: Choose from various cryptocurrency markets (BTC/ICP, ETH/ICP, etc.)
 2. **Open Position**: Set your leverage (up to 75x), choose Long or Short
-3. **Oracle Pricing**: Real-time price feeds for funding rates settlement 
+3. **Oracle Pricing**: Real-time price feeds for funding rates settlement
 4. **House Settlement**: The decentralized house settles your trade instantly
 5. **Profit/Loss**: Realized gains are settled directly to native Bitcoin without bridges
 
@@ -80,4 +81,4 @@ Ready to start trading? Follow our step-by-step guide:
 
 ---
 
-*Trade with confidence on a platform built for transparency, security, and fairness.*
+_Trade with confidence on a platform built for transparency, security, and fairness._

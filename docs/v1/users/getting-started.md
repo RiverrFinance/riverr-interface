@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Connecting Your Wallet,
+title: Getting Started with Riverr
 ---
 
 # Getting Started with Riverr
@@ -27,7 +27,7 @@ Riverr supports the following Web3 wallets:
 5. Approve the connection request in your wallet
 
 ![Connect Wallet Screenshot]
-*Screenshot showing wallet connection options*
+_Screenshot showing wallet connection options_
 
 :::tip
 If you don't have a wallet yet, we recommend starting with Internet Identity for the best ICP experience.
@@ -47,7 +47,7 @@ Before trading, you need to deposit collateral:
 
 ### Minimum Deposit Requirements
 
-- Based on specifications ,some assets have minimum  deposit amount
+- Based on specifications ,some assets have minimum deposit amount
 
 ## Step 3: Navigate the Dashboard
 

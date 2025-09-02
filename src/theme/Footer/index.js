@@ -1,63 +1,59 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import "/src/css/customFooter.css";
+import "../../css/footer.css";
 
-export default function Footer() {
+export default function FooterWrapper(props) {
   return (
     <footer className="custom-footer">
-      <div className="footer-container">
-        <div className="footer-left">
-          <Link to={"/"} className="footer-logo">
-            <img src="/img/logo.png" alt="Riverr" />
-            <span>Riverr</span>
-          </Link>
-          <p className="footer-description">DEFI DONE DIFFERENTLY</p>
+      <div className="custom-footer-container">
+        <div className="custom-footer-left">
+          <div>
+            <a href="/" className="custom-footer-logo">
+              <img src="/img/logo.png" alt="Riverr Logo" />
+              <span>Riverr</span>
+            </a>
+            <p className="custom-footer-description">DEFI DONE DIFFERENTLY</p>
+          </div>
+
+          <div className="custom-footer-socials">
+            <a
+              href="https://x.com/riverrFinance"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+          </div>
         </div>
 
-        {/* Middle: Links */}
-        <div className="footer-links">
-          <h4>Link</h4>
-          <ul>
-            <li>
-              <Link href="https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/dashboard">
-                App
-              </Link>
-            </li>
-            <li>
-              <Link to="/docs">Docs</Link>
-            </li>
-            <li>{/* <Link to="/docs/faqs">FAQs</Link> */}</li>
-            <li>{/* <Link to="/terms">Terms/Privacy</Link> */}</li>
-          </ul>
-        </div>
+        <div className="custom-footer-right">
+          <div className="custom-footer-links">
+            <h4>Link</h4>
+            <ul>
+              <li>
+                <a href="https://joljv-6aaaa-aaaah-qqbmq-cai.icp0.io/dashboard" target="_blank" rel="noopener noreferrer">
+                  App
+                </a>
+              </li>
+              <li>
+                <a href="/docs/">Docs</a>
+              </li>
+            </ul>
+          </div>
 
-        {/* Right: Partners */}
-        <div className="footer-partners">
-          <h4>Partners</h4>
-          <ul>
-            <li>
-              <a href="https://dfinity.org" target="_blank" rel="noopener">
-                Dfinity
-              </a>
-            </li>
-            {/* <li>
-              <a href="https://dfinity.org" target="_blank" rel="noopener">
-                Dfinity
-              </a>
-            </li> */}
-          </ul>
-        </div>
-
-        <div className="footer-socials">
-          <a href="https://x.com/riverrFinance" target="_blank" rel="noopener">
-            <img src="/img/Twitter.svg" />
-          </a>
-          {/* <a href="#" target="_blank" rel="noopener">
-            <img src="/img/Instagram.svg" />
-          </a>
-          <a href="#" target="_blank" rel="noopener">
-            <img src="/img/Youtube.svg" />
-          </a> */}
+          <div className="custom-footer-partners">
+            <h4>Partners</h4>
+            <ul>
+              <li>
+                <a href="https://dfinity.org" target="_blank" rel="noopener noreferrer">Dfinity</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

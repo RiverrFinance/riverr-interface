@@ -1,11 +1,15 @@
-import React from "react";
 import styles from "./styles.module.css";
+import "../../css/custom.css";
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
+import CustomNavbar from "../CustomNavbar";
+import CustomFooter from "../CustomFooter";
 
 export default function RiverrLanding() {
   return (
     <div className={styles.container}>
+      <CustomNavbar />
+      
       <div className={styles.heroEllipse}></div>
 
       <div
@@ -258,7 +262,7 @@ export default function RiverrLanding() {
 
       <motion.img
         src="/img/vector2.png"
-        className={styles.ellipse}
+        className="ellipse"
         animate={{ rotate: [0, 10, -10, 0] }}
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       />
@@ -270,6 +274,8 @@ export default function RiverrLanding() {
           <h3>DFINITY (INTERNET COMPUTER PROTOCOL)</h3>
         </div>
       </div>
+
+      <CustomFooter />
     </div>
   );
 }

@@ -23,7 +23,7 @@
   height: 820px;    
   background: linear-gradient(180deg, #0300AD99 0%, #0E7BF800 100%);
   filter: blur(400px);
-  z-index: 2;
+  z-index: 1;
 }
 
 .dot {
@@ -75,8 +75,8 @@
   position: relative;
   z-index: 2;
   max-width: 1440px;
-  margin: 4rem auto 0 auto;
-  padding: 5rem 4rem;
+  margin: 0 auto;
+  padding: 8rem 4rem 5rem 4rem;
   background: url('/static/img/bg.png');
 }
 
@@ -125,14 +125,37 @@
 }
 
 .primaryButton {
-  background-color: #0300AD;
-  color: white;
-  padding: 0.75rem 2rem;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #03016f 0%, #5355cc 100%);
   border: none;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.primaryButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.primaryButton:hover::before {
+  left: 100%;
+}
+
+.primaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 1px 25px rgba(3, 0, 173, 0.4);
 }
 
 .primaryButton:hover {
@@ -167,6 +190,7 @@
 }
 
 .tradingInterface {
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   max-width: 576px;
 }
@@ -195,11 +219,11 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 5rem;
-  background-color: #141518;
 }
 
 .featureCard {
   background-color: #222327;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border-radius: 12px;
   display: grid;
@@ -286,6 +310,7 @@
 
 .trustFeature {
   background-color: #222327;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border-radius: 12px;
   display: grid;
@@ -300,17 +325,6 @@
 .trustFeatureDescription {
   color: #9ca3af;
   font-size: 0.875rem;
-}
-
-.ellipse {
-  position: absolute;
-  bottom: 70px;  
-  left: 8%;
-  transform: translateX(-50%);
-  width: 300px;   
-  height: 450px;
-  pointer-events: none; 
-  z-index: 0;
 }
 
 .sponsor {
@@ -363,6 +377,7 @@
 @media (max-width: 768px) {
   .hero {
     padding: 4rem 2rem;
+    margin-top: 100px;
   }
   .heroGrid {
     grid-template-columns: 1fr !important;
@@ -383,6 +398,8 @@
 
   .heroButtons {
     margin: 1rem 0;
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
 
